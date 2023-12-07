@@ -7,8 +7,10 @@ import Footer from "./components/Footer"
 import About from './components/About'
 import Project from './components/Project'
 import Contact from './components/Contact'
+import Resume from './components/Resume'
 import { Link, Outlet } from "react-router-dom"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import NotFound from './components/NotFound'
 
 
 
@@ -24,6 +26,8 @@ function App() {
             <Route path="/" element={<About />} />
             <Route path="/projects" element={<Project />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="*" element={<NotFound />} />
 
           </Routes>
         </BrowserRouter>

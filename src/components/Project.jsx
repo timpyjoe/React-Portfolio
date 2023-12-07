@@ -7,7 +7,7 @@ export default function Project(){
 
   return(
     <>
-      <h1>Portfolio</h1>
+      <h2>Portfolio</h2>
 
 
     </>
