@@ -4,7 +4,7 @@ import './style.css'
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import About from './components/About'
-import Project from './components/Project'
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 import NotFound from './components/NotFound'
@@ -22,7 +22,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<About />} />
-            <Route path="/projects" element={<Project />} />
+            <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="*" element={<NotFound />} />

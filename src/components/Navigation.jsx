@@ -12,7 +12,7 @@ export default function Navigation(){
           <h2><a href="/">About Me</a></h2>
         </li>
         <li>
-          <h2><a href="/projects">Projects</a></h2>
+          <h2><a href="/portfolio">Portfolio</a></h2>
         </li>
         <li>
           <h2><a href="/contact">Contact</a></h2>
