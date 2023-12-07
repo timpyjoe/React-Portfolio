@@ -1,16 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css'
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import About from './components/About'
 import Project from './components/Project'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
-import { Link, Outlet } from "react-router-dom"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
 import NotFound from './components/NotFound'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
 
