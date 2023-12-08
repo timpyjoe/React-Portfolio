@@ -21,7 +21,7 @@ export default function Project({ imgPath, title, gitLink, deployLink}){
       )} */}
       <p>{title}</p>
       <a href={gitLink} target="_blank">
-        <i className="fa-brands fa-github" />
+        <i className="fa-brands fa-github icon" />
       </a>
 
       

@@ -113,14 +113,18 @@ footer nav {
 
 .body {
   flex: 1;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 3%;
 }
 
 .content {
   position: absolute;
   top: 50%;
+}
+
+.icon {
+  display: inline;
 }
 
 
@@ -134,20 +138,21 @@ footer nav {
 .projectItem {
   padding: 3%;
   position: relative;
+  display: flex;
+  flex-wrap: wrap
 
 }
 
 /* .projectItem p {
   display: inline-block
 } */
-
-.projectItem i {
-  size: 80%;
-  display: inline
+.projectItem p {
+  display: inline;
+  padding-right: 10px;
 }
 
 .projectItem img {
-  width: 50%
+  width: 35%
 }
 
 .projectItem img:hover {
