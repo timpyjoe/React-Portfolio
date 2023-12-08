@@ -41,7 +41,7 @@ export default function Contact(){
 
         <Form.Group className="mb-3" controlId="formBasicMessage" >
           <Form.Label>Message:</Form.Label>
-          <Form.Control type="text-area" required></Form.Control>
+          <Form.Control as="textarea" required></Form.Control>
           <Form.Control.Feedback type="invalid">
             Message is required
           </Form.Control.Feedback>

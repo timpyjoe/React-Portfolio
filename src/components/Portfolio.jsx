@@ -12,8 +12,8 @@ export default function Portfolio() {
         <Project imgPath="../../Hockey-Trivia.png" title="Hockey Trivia Game" gitLink="https://github.com/mhalder4/group-project-1" deployLink=""/>
         <Project imgPath="../../Note Taker.png" title="Note Taking App" gitLink="https://github.com/timpyjoe/Notes-Taker" deployLink="https://notes-taker-app-94f83f45691b.herokuapp.com/notes"/>
         <Project imgPath="../../Code-stock.jpg" title="README Generator" gitLink="https://github.com/timpyjoe/README-generator" deployLink="https://drive.google.com/file/d/1_sHoPDzMugQD8IhuGO3O0A0LnQhUoIQu/view"/>
-        <Project imgPath="../../portfolio.png" title="Portfolio Webpage" gitLink="https://github.com/timpyjoe/React-Portfolio" deployLink=""/>
-        <Project imgPath="" title="" gitLink="" deployLink=""/>
+        <Project imgPath="../../portfolio.png" title="Portfolio Webpage" gitLink="https://github.com/timpyjoe/React-Portfolio" deployLink="https://main--hilarious-torte-26d0ae.netlify.app/portfolio"/>
+        {/* <Project imgPath="" title="" gitLink="" deployLink=""/> */}
       </div>
     
     
