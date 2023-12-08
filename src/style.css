@@ -18,8 +18,8 @@ a {
   color: inherit;
 }
 
-h6 {
-  font-style: italic;
+h4 {
+  text-decoration: underline;
 }
 
 /* Styles the entire header section  */
