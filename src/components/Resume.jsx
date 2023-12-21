@@ -1,12 +1,34 @@
-
+import { Button } from "react-bootstrap";
 
 
 export default function() {
+
+  // Function will execute on click of button
+  const onButtonClick = () => {
+     
+    // using Java Script method to get PDF file
+    fetch("../../resume.pdf").then((response) => {
+        response.blob().then((blob) => {
+         
+            // Creating new object of PDF file
+            const fileURL =
+                window.URL.createObjectURL(blob);
+                 
+            // Setting various property values
+            let alink = document.createElement("a");
+            alink.href = fileURL;
+            alink.download = "tpoffResume.pdf";
+            alink.click();
+        });
+    });
+};
 
 
   return(
     <>
       <h2>Resume</h2>
+      <p>My resume can be downloaded by clicking the link below</p>
+      <Button onClick={onButtonClick} variant="link">Download Resume</Button>
     
       <h3>Technologies I have experience in:</h3>
 
