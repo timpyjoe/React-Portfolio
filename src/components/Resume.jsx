@@ -17,7 +17,6 @@ export default function() {
         <li>Bootstrap</li>
         <li>JavaScript</li>
         <li>React</li>
-        <li>GraphQL</li>
       </ul>
 
       <h4>Backend</h4>
@@ -34,6 +33,7 @@ export default function() {
       <ul>
         <li>Git</li>
         <li>npm</li>
+        <li>GraphQL</li>
         <li>Python</li>
         <li>SQL Server</li>
         <li>Microsoft Excel</li>
