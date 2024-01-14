@@ -7,7 +7,7 @@ export default function() {
   const onButtonClick = () => {
      
     // using Java Script method to get PDF file
-    fetch("../../resume.pdf").then((response) => {
+    fetch("../../Tech Resume Template.pdf").then((response) => {
         response.blob().then((blob) => {
          
             // Creating new object of PDF file
