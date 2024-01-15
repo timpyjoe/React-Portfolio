@@ -28,7 +28,7 @@ export default function() {
     <>
       <h2>Resume</h2>
       <p>My resume can be downloaded by clicking the link below</p>
-      <Button onClick={onButtonClick} variant="link">Download Resume</Button>
+      <Button onClick={onButtonClick} variant="secondary">Download Resume</Button>
     
       <h3>Technologies I have experience in:</h3>
 
