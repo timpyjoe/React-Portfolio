@@ -41,7 +41,7 @@ export default function Contact(){
       <h2>Contact Me</h2>
       <p>Shoot me a message and I'll try to get back to you as soon as I can!</p>
 
-      <Form noValidate validated={validated} onSubmit={handleSubmit} onChange={handleChange} name="contactForm">
+      <Form noValidate validated={validated} onSubmit={handleSubmit} onChange={handleChange} name="contactForm" style={{paddingBottom: "20px"}}>
         <Form.Group  className="mb-3" controlId="formBasicName" >
           <Form.Label>Name:</Form.Label>
           <Form.Control name="from_name" type="text" required></Form.Control>
