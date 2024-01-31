@@ -18,7 +18,7 @@ export default function Portfolio() {
         </Row>
         <Row>
           <Col sm={12} md={6}>
-        <Project imgPath="../../Hockey-Trivia.png" title="Hockey Trivia Game" gitLink="https://github.com/mhalder4/group-project-1" deployLink=""/>
+        <Project imgPath="../../Hockey-Trivia.png" title="Hockey Trivia Game" gitLink="https://github.com/timpyjoe/Hockey-Trivia" deployLink="https://timpyjoe.github.io/Hockey-Trivia/"/>
           </Col>
           <Col sm={12} md={6}>
         <Project imgPath="../../Note Taker.png" title="Note Taking App" gitLink="https://github.com/timpyjoe/Notes-Taker" deployLink="https://notes-taker-app-94f83f45691b.herokuapp.com/notes"/>
